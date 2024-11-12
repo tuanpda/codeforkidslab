@@ -95,15 +95,15 @@ export default {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     // baseURL: "/",
     // baseURL: "http://192.168.160.7:2612", // máy chủ nhân hoà
-    baseURL: "http://14.224.129.177:1552", // máy chủ tuanpda
-    baseURL: "http://localhost:8668",
+    baseURL: "http://14.224.129.177:8668", // máy chủ tuanpda
+    // baseURL: "http://localhost:8668",
     timeout: 20000,
   },
 
   server: {
     port: 1186,
     // host: "192.168.160.7", // server nhân hòa\
-    host: "14.224.129.177", // server tuanpda
+    // host: "14.224.129.177", // server tuanpda
     // host: "localhost",
     // host: "192.168.1.97",
     // host: "14.224.129.177", // server tuanpda
