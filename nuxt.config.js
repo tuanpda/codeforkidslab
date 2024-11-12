@@ -102,16 +102,13 @@ export default {
 
   server: {
     port: 1186,
-    // host: "192.168.160.7", // server nhân hòa
-<<<<<<< HEAD
+    // host: "192.168.160.7", // server nhân hòa\
     host: "14.224.129.177", // server tuanpda
     // host: "localhost",
     // host: "192.168.1.97",
-=======
     // host: "14.224.129.177", // server tuanpda
     // host: "localhost",
     host: "192.168.1.97",
->>>>>>> 61dc146 (commit)
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
